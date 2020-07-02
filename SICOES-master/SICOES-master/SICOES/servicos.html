@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="CSS/servicos.css">
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/slick.css" />
+    <title>Serviços - SICOES</title>
+</head>
+
+<body>
+    <header class="menu-inicio">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./img/img5.png" />
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div class="card">
+        <h2 class="title">Serviços</h2>
+        <nav>
+            <ul class="menu">
+                <a href="./servicos.html">
+                    <li>Cadastro</li>
+                </a>
+                <a href="./consultas.php">
+                    <li>Consulta</li>
+                </a>
+                <a href="index.html">
+                    <li>Voltar ao menu</li>
+                </a>
+            </ul>
+        </nav>
+        <section>          
+            <br><h1>CADASTRO DE FERRAMENTA</h1><br>
+            <hr><br>
+
+            <form method="POST" action="./cad_produto.php">
+                <b>Ferramenta</b><br>
+                <input type="text" name="nome" class="campo" maxlength="40" required autofocus><br>
+                <br><b>Data</b><br>
+                <input type="date" name="data" class="campo" required><br>
+                <br><b>Quantidade</b><br>
+                <input type="number" name="quantidade" class="campo" required><br>
+                <br>
+                <input type="submit" value="Salvar" class="btn">
+                <input type="reset" value="Limpar" class="btn">
+                <br><br>
+
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
